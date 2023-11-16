@@ -1,0 +1,3 @@
+Leonardo
+
+Az Arduino Leonardo egy mikrovezérlő kártya, amely az ATmega32u4-en alapul (adatlap). 20 digitális bemeneti / kimeneti érintkezővel rendelkezik (ebből 7 használható PWM kimenetként, 12 pedig analóg bemenetként), 16 MHz-es kristály oszcillátorral, mikro-USB csatlakozással, tápegység-aljzattal, ICSP fejlécgel és reset gombbal. Bővebben: 

@@ -1,0 +1,42 @@
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Board</th>
+      <th scope="col">Órajel</th>
+      <th scope="col">Digital in/out</th>
+      <th scope="col">Analog in/out</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Uno</th>
+      <td>16MHz</td>
+      <td>14</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th scope="row">Nano</th>
+      <td>16MHz</td>
+      <td>14</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th scope="row">Mega</th>
+      <td>16MHz</td>
+      <td>52</td>
+      <td>16</td>
+    </tr>
+ <tr>
+      <th scope="row">Due</th>
+      <td>84MHz</td>
+      <td>52</td>
+      <td>16/2</td>
+    </tr>
+ <tr>
+      <th scope="row">Leonardo</th>
+      <td>16MHz</td>
+      <td>20</td>
+      <td>12</td>
+    </tr>
+  </tbody>
+</table>    

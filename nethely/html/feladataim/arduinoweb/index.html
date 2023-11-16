@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/style.css">
+	
+	<title>Arduino</title>
+</head>
+
+<body>
+    <header class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="d-none d-sm-block">Arduino</h1>
+            </div>
+        </div>
+    </header>
+    <nav class="container navbar navbar-expand-lg navbar-light">      
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Főoldal <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html#legelterjedtebb">A legelterjettebb alaplapok</a>
+            <a class="nav-link" href="hasonlit.html">Összehasonlítás</a>
+            <a class="nav-link" href="index.html#kiegeszitok">Kiegészítők</a>  
+                     
+          </div>
+        </div>
+      </nav>
+    <main class="container ">
+        <article class="row">
+            <div class="col-12">
+                <h2>A fejlesztőplatform</h2>
+                <p>
+                   Az <b>Arduino</b> egy szabad szoftveres, <i>nyílt forráskódú</i> elektronikai fejlesztőplatform, arra tervezve, hogy a különböző projektekben az elektronikus eszközök könnyebben hozzáférhetőek, kezelhetőek legyenek. Széles tömegek számára elérhető, mivel olcsó, könnyen beszerezhető, egyszerűen programozható, és csatlakoztatható más eszközökhöz.
+                </p>
+                <p>A fejlesztői platform az úgynevezett IDE-ből (integrált fejlesztői környezet), és egy Arduino Board-ból áll. Előbbi segítségével programokat írhatunk és tesztelhetünk számítógépen, utóbbi pedig egy hardver eszköz, amelyre az előzőleg elkészített programokat feltölthetjük a számítógépen keresztül, majd elektronikus eszközöket vezérelhetünk a segítségével.
+                </p>
+				<p>
+				Az Arduino lap elérhető kereskedelmi forgalomban kapható, előre összeszerelt, vagy otthon összeszerelhető alkatrészcsomagként. Mivel nyílt forráskódú a hardver is, bárki készíthet magának saját változatot belőle, vagy az eredetivel kompatibilis klónt.
+				</p>
+            </div>
+        </article>
+        <article class="row">
+            <div class="col-12">
+                <h2 id="legelterjedtebb">A legelterjettebb alaplapok</h2>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                
+                <h3>Uno</h3>
+                <p>Az Arduino Uno esetén a legismertebb és leginkább használt Arduinoról van szó. Mikrokontrollerként egy ATmega328-at használ. A kontroller 14 digitális be- és kimenettel, 6 analóg bemenettel, egy 16 MHz-es kvarccal, egy USB csatlakozóval (B típusú), egy tápegység csatlakozóval, egy ICSP dugóval és egy Reset gombbal rendelkezik.</p>
+				<img src="img/arduinouno.jpg" alt="Uno" class="img-thumbnail" >
+            </div>
+           <div class="col-sm-4 col-md-6 col-lg-6">
+              
+               <h3>Nano</h3>
+               <p>A Nano Board egy könnyen használható, szabadon programozható és bővíthető 8 bites AVR fejlesztőlap fejlesztői kártya az Arduino ™ platformon. A tábla kompatibilis az Arduino ™ Nano-val. A beépített tűsoron keresztül nagyon gyorsan kapcsolások építhetők a dugaszpanelra. Összesen 20 szabadon programozható GPIO tüske áll rendelkezésre.</p>
+			    <img src="img/arduinonano.jpg" alt="Nano" class="img-thumbnail">
+           </div>
+		   </article>
+		    <article class="row">
+           <div class="col-sm-4 col-md-4 col-lg-4">
+               
+               <h3>Mega</h3>
+               <p>Az Arduino Mega 2560 egy ATmega2560-en alapuló mikrokontroller panel. 52 digitális I/O csatlakozóval (14 PWM kimenet), 16 analóg bemenettel, 4 UART-tal (soros hardveres csatlakozó), egy 16 MHz-es kristály oszcillátorral, egy USB csatlakozóval, egy tápcsatlakozóval, egy ICSP headerrel és egy visszaállító gombbal rendelkezik.
+			   </p>
+			   <img src="img/arduinomega.jpg" alt="Mega" class="img-thumbnail" >
+           </div>
+           <div class="col-sm-4 col-md-4 col-lg-4">
+                
+                <h3>Due</h3>
+                <p>A Due az első olyan Arduino panel, amibe egy 32 bites ARM kontroller van építve. A gyors 84 MHz-es ütemráta az összesen 54 I/P tüskével lehetővé teszi nagyon nagy projektek megvalósítását. Megmarad a megszokott Arduino rendszer egyszerűsége a gazdag Arduino könyvtárnak és a legtöbb Arduino Shielddel meglévő kompatibilitásnak köszönhetően.
+				</p>
+				<img src="img/arduinodue.jpg" alt="Due" class="img-thumbnail" >
+           </div>                    
+           <div class="col-sm-4 col-md-4 col-lg-4">
+                
+            <h3>Leonardo</h3>
+            <p>Az Arduino Leonardo egy mikrovezérlő kártya, amely az ATmega32u4-en alapul (adatlap). 20 digitális bemeneti / kimeneti érintkezővel rendelkezik (ebből 7 használható PWM kimenetként, 12 pedig analóg bemenetként), 16 MHz-es kristály oszcillátorral, mikro-USB csatlakozással, tápegység-aljzattal, ICSP fejlécgel és reset gombbal. <a href="https://www.arduino.cc/en/Main/Arduino_BoardLeonardo" target="_blank">Bővebben:</a></p>
+            <img src="img/arduinoleonardo.jpg" alt="Due" class="img-thumbnail" >
+       </div>
+			
+        </article>
+        <article class="row mb-5">
+            <div class="col-12">
+                <h2 id="kiegeszitok">Kiegészítők</h2>               
+                    <ul>
+                <li>IR érzékelő,</li> 
+                <li>Fotóellenállás,</li>
+                <li>LDRgomb,</li>
+                <li>nyomógomb,</li>
+                <li>RGB LED,</li>
+                <li>I2C Modul</li>
+                    </ul>				
+            </div>
+        </article>
+    </main>    
+    <script src="bootstrap/js/jquery-3.5.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>    
+</body>
+
+</html>
